@@ -1,10 +1,12 @@
 def retrieve_documents(
-    db,
+    vector_store,
     query,
-    k
+    k=3
 ):
-
-    return db.similarity_search(
-        query,
-        k=k
+    retriever = vector_store.as_retriever(
+        search_kwargs={"k": k}
     )
+
+    docs = retriever.invoke(query)
+
+    return docs
