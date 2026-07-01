@@ -10,6 +10,29 @@ An advanced Retrieval-Augmented Generation (RAG) application for intelligent PDF
 - User Sign Up & Login
 - Session Management
 - Secure Authentication using Supabase
+  # 📸 Application Screenshots
+
+## 🔐 Login
+
+![Login](screenshots/login.png)
+
+---
+
+## 📝 Sign Up
+
+![Sign Up](screenshots/signup.png)
+
+---
+
+## 📊 Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## 💬 AI Research Assistant
+
+![Chat Interface](screenshots/chat_interface.png)
 
 ### 📚 PDF Processing
 - Upload one or multiple PDF documents
